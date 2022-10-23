@@ -1432,7 +1432,7 @@ h6 {
     -ms-animation: fading 300ms ease-in-out;
     -moz-animation: fading 300ms ease-in-out;
     -o-animation: fading 300ms ease-in-out;
-    background-image: url("./image/");
+    background-image: url("./image/arrow.png");
     background-size: contain;
     bottom: 20px;
     height: 40px;
