@@ -21,7 +21,11 @@
 
 <body>
 <div class="fullscreen">
-    <div class="background" style="background-image: url('./image/bg.gif');"></div>
+    <div class="background" style="background-image: url('./image/bgs/bg.gif');"></div>
+    <!--<script type="text/javascript">
+        var images = ['./image/bgs/bg.gif', 'assets/images/BGs/bg2.gif', 'assets/images/BGs/bg3.gif', 'assets/images/BGs/bg4.gif', 'assets/images/BGs/bg5.gif', 'assets/images/BGs/bg6.gif', 'assets/images/BGs/bg7.gif', 'assets/images/BGs/bg8.gif', 'assets/images/BGs/bg9.gif', 'assets/images/BGs/bg10.gif', 'assets/images/BGs/bg11.gif', 'assets/images/BGs/bg12.gif', 'assets/images/BGs/bg13.gif', 'assets/images/BGs/bg14.gif', 'assets/images/BGs/bg15.gif', 'assets/images/BGs/bg16.gif', 'assets/images/BGs/bg17.gif','assets/images/BGs/bg18.gif', 'assets/images/BGs/bg19.gif', 'assets/images/BGs/bg20.gif', 'assets/images/BGs/bg21.gif', 'assets/images/BGs/bg22.gif', 'assets/images/BGs/bg23.gif', 'assets/images/BGs/bg24.gif', 'assets/images/BGs/bg25.gif', 'assets/images/BGs/bg26.gif', 'assets/images/BGs/bg27.gif', 'assets/images/BGs/bg28.gif', 'assets/images/BGs/bg29.gif', 'assets/images/BGs/bg30.gif', 'assets/images/BGs/bg31.gif', 'assets/images/BGs/bg32.gif', 'assets/images/BGs/bg33.gif', 'assets/images/BGs/bg34.gif', 'assets/images/BGs/bg35.gif', 'assets/images/BGs/bg36.gif', 'assets/images/BGs/bg37.gif', 'assets/images/BGs/bg38.gif', 'assets/images/BGs/bg39.gif', 'assets/images/BGs/bg40.gif', 'assets/images/BGs/bg41.gif', 'assets/images/BGs/bg42.gif', 'assets/images/BGs/bg43.gif', 'assets/images/BGs/bg44.gif', 'assets/images/BGs/bg45.gif', 'assets/images/BGs/bg46.gif', 'assets/images/BGs/bg47.gif'];
+        document.getElementsByClassName('background')[0].style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')';
+    </script>-->
     <style>
         .cursor {
             animation: 1s blink step-end infinite;
@@ -44,6 +48,16 @@
             <h1 class="title" style="width: 100%;text-align: center">Noxyyk</h1>
             <span class="undertitle" style="width: 100%;text-align: center">To have a rainbow, you also need some rain</span>
         </div>
+        <div class="buttons">
+            <a href="https://discord.gg/SRNZe3g3pY" class="btn animation discord hover" target="_blank">Discord</a>
+            <a href="https://github.com/noxyyk" class="btn animation github hover" target="_blank">GitHub</a>
+            <a href="https://open.spotify.com/user/2125o4avup3yqbalmjs62mrfi?si=a4bb8656b8d54902" class="btn animation spotify hover" target="_blank">Spotify</a>
+            <a href="https://twitter.com/noxyyk" class="btn animation twitter hover" target="_blank">Twitter</a>
+            <a href="https://www.youtube.com/channel/UCtVmkvYCBsi2QpDP_43RxMg" class="btn animation youtube hover" target="_blank">YouTube</a>  
+        </div>
+        <a href="#information">
+            <div id="fade" class="arrow bounce"></div>
+        </a>
     </div>
 </div>
 
@@ -52,14 +66,13 @@
         <div class="one-full column"><h1 style="color:#98ff98"><b>About Me</b></h1></div>
         <div class="one-full column">
             <p style="font-size:20">
-                welcome all! My name is Tomas, known as Noxyyk on social media. I am currently in high school, in my final year, and preparing for my future. My branch is Internet of Things and I live in <span style="color: red;">Czech</span> <span style="color: blue;">repu</span>blic. I am currently an admin on the Rocket League trading server on discord and an admin on Scratch for Discord and its documentation. I like it when people get straight to the point and don´t waste my precious time. 
-                You can contact me on <button class="button" onclick="window.location.href='https://discord.gg/SRNZe3g3pY'" type="button" class="click" id="click" value="Click" style="width: 60px; height: 20px; text-align: center; color: black; background: 	#5865F2; font-size: 13px; border-color: 	#5865F2; border-radius:2px; padding: 0px; ">Discord</button> 
-                server or add me <span style="background-color: #000;border-radius: 7px;padding-left: 2px;padding-right: 2px;">Noxyyk#6138</span>.
+                welcome all! My name is Tomas, known as Noxyyk on social media. I am currently in high school, in my final year, and preparing for my future. My branch is Internet of Things and I live in Czech republic. I am currently an admin on the Rocket League trading server on discord and an admin on Scratch for Discord and its documentation. I like it when people get straight to the point and don´t waste my precious time. 
+                You can contact me on discord <span style="background-color: #292828;border-radius: 7px;padding-left: 2px;padding-right: 2px;">Noxyyk#6138</span>.
             </p> 
         </div>
     </div>
     <div class="box-container row">
-        <div class="one-full column"><h1 style="color:#98ff98"><i class="emoji iFMThink"></i><b>Quick Facts:</b></h1></div>
+        <div class="one-full column"><h1 style="color:#98ff98"><b>Quick Facts</b></h1></div>
         <div class="one-full column">
             <ul style="font-size:20">
                 <li>I like English more than my native language</li>
@@ -73,6 +86,28 @@
         </div>
     </div>
 </section>
+
+<section class="fullscreen half" id="portfolio">
+    
+    <div class="background" style="background-image: url('./image/projectbg.gif');"></div>
+    <div class="center-object">
+        <section class="me">
+            <h1 class="title" style="width: 100%;font-size: 500%;text-align: center;font-weight: bold">Projets</h1>
+            <script>var randomlinks = [];
+            randomlinks[0]="./rick/index.html";
+
+            function randomlink(){
+                window.open(randomlinks[Math.floor(Math.random()*randomlinks.length)]);
+            }</script>
+            <div class="buttons">
+                <a onclick="randomlink()" class="btn animation youtube hover" target="_blank">Random</a>
+                <a href="https://vizualizacni-portal.up.railway.app/" class="btn animation twitter hover" target="_blank">Visualization Portal</a>
+                <a href="https://discord.gg/SRNZe3g3pY" class="btn animation discord hover" target="_blank">Discord Bots</a>
+                <a href="https://discord.gg/TsQPMrNyBv" class="btn animation scratch hover" target="_blank" style="color: #000;">Scratch for Discord</a>
+            </div>
+        </section>
+    </section>
+</section>    
 <section class="container" id="end">
     <div class="box-container row">
         <div class="flex-grid">
