@@ -5,7 +5,7 @@
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=noxyyk&theme=dark)
 ## Experiences
 ### Technologies I Work With
-[![My Skills](https://skillicons.dev/icons?i=js,ts,nodejs,svelte,supabase,vue,vite,tailwind,discord,bots,vscode,py,raspberrypi,arduino,atom,vercel,react,powershell,css,electron,express,gamemakerstudio,github,html,lua,md,netlify,stackoverflow,sketchup&perline)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,ts,nodejs,svelte,supabase,vite,tailwind,vscode,vercel,react,css,html&perline)](https://skillicons.dev)
 
 ## Status
 ![Discord Status](https://dev.discordprofiles.me/badge/status/513095506914705418?simple=true)
