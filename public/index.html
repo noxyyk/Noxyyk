@@ -8,7 +8,7 @@
    <!-- Meta Data -->
     <meta content="Noxyyk" property="og:title" />
     <meta content="Sneak into the inter workings of Noxyyk´s mind with this website." property="og:description" />
-    <meta content="https://noxyyk.vercel.app/" property="og:url" />
+    <meta content="https://noxyyk.com/" property="og:url" />
     <meta content="./image/logo.png" property="og:image" />
     <meta content="#98ff98" data-react-helmet="true" name="theme-color" />
 
@@ -28,6 +28,14 @@
         document.getElementsByClassName('background')[0].style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')';
         </script>
         <style>
+            .icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .icons span {
+    margin-right: 5px;
+    }
             .cursor {
                 animation: 1s blink step-end infinite;
                 font-weight: bolder;
@@ -42,6 +50,16 @@
                 opacity: 1;
             }
         }
+        @media (max-width: 500px) {
+            ul {
+        padding: 0;  /* <----------------------- required */
+    }
+    
+    li {
+      	list-style-position: inside;  /* <------ optional */
+    }
+}
+
     </style>
     <div class="center-object">
         <div class="me"> 
@@ -71,9 +89,9 @@
     <div class="box-container row">
         <div class="one-full column"><h1 style="color:#98ff98"><b>About Me</b></h1></div>
         <div class="one-full column">
-            <p style="font-size:20">
-                Hi, everyone! My name is Tomas, known as Noxyyk on social media. I live in Czech Republic and currently looking for a job opportunities and would like to introduce myself. I have experience as an admin on the Rocket League trading server and as an admin, documentarist and programmer for open-source Scratch for Discord. I appreciate when people get straight to the point, as I believe in optimizing productivity and making the most of my time . 
-                If you'd like to get in touch, feel free to reach me out on Discord <span style="background-color: #292828;border-radius: 7px;padding-left: 2px;padding-right: 2px;">Noxyyk#6138</span>.
+            <p style="font-size:20;text-align: justify">
+                Hi, everyone! My name is Tomas, known as Noxyyk on social media. I live in Czech Republic and currently looking for a job opportunities and would like to introduce myself. I have experience as an admin on the Rocket League trading server and as an admin, documentarist and developer for open-source Scratch for Discord. I appreciate when people get straight to the point, as I believe in optimizing productivity and making the most of my time . 
+                If you'd like to get in touch, feel free to reach me out on Discord <span style="background-color: #292828;border-radius: 7px;padding-left: 2px;padding-right: 2px;">@noxyyk</span>.
             </p> 
         </div>
     </div>
@@ -81,19 +99,38 @@
         <div class="one-full column">
             <h2 style="color:#98ff98"><b>Skills and Abilities</b></h2>
           </div>
-          <div class="one-full column">
-            <ul style="font-size:20">
+          <div class="one-full column mobile">
+            <ul style="font-size: 20px;">
               <li>Communication with people</li>
               <li>PC skills:</li>
               <ul>
                 <li>Ms Office (Word, Excel, Access, Visio)</li>
-                <li>Photoshop</li>
-                <li>Version control system - Git, GitHub</li>
+                <li class="icons">
+                    <span>Adobe: </span>
+                    <img src="https://skillicons.dev/icons?i=ps,pr,ae" />
+                  </li>
                 <li>Programming:</li>
                 <ul>
-                  <li>HTML, CSS, Tailwind CSS, JavaScript, Node.js</li>
-                  <li>Frameworks - React</li>
-                  <li>Databases - MongoDB, InfluxDB</li>
+                  <li class="icons">
+                      <span>Languages: </span>
+                      <div>
+                    <img style="margin-bottom: 4px" src="https://skillicons.dev/icons?i=html,css,tailwind" />
+                    <img src="https://skillicons.dev/icons?i=js,ts,nodejs" />
+                </div>
+                  </li>
+                  <li class="icons">
+                    <span>Frameworks: </span>
+                <div>
+                    <img src="https://skillicons.dev/icons?i=svelte,vite,react" />
+                </div>
+                  </li>
+                  <li class="icons">
+                      <span>Other tools: </span>
+                      <div>
+                    <img style="margin-bottom: 4px" src="https://skillicons.dev/icons?i=supabase,mongo,vercel" />
+                    <img src="https://skillicons.dev/icons?i=regex,github,vscode" />
+                </div>
+                  </li>
                 </ul>
               </ul>
               <li>Quick learning ability</li>
@@ -106,14 +143,14 @@
           <div class="one-full column">
             <ul style="font-size:20">
               <li>English - intermediate</li>
-              <li>German - beginner</li>
+                <li>Czech - native</li>
             </ul>
           </div>
     </div>
     <div class="box-container row">
         <div class="one-full column"><h1 style="color:#98ff98"><b>Quick Facts</b></h1></div>
         <div class="one-full column">   
-            <ul style="font-size:20">
+            <ul style="font-size:20;text-align: justify">
                 <li>I like English more than my native language</li>
                 <li>I accept people who eat pineapple on pizza</li>
                 <li>I like listening to music, mostly rock</li>
@@ -139,10 +176,13 @@
             }</script>
             <div class="buttons">
                 <a onclick="randomlink()" class="btn animation youtube hover" target="_blank">Random</a>
+                <a href="https://github.com/Dis-codes" class="btn animation discord hover" target="_blank">DisCodes</a>
                 <a href="https://vizualizacni-portal.noxyyk.com" class="btn animation twitter hover" target="_blank">Visualization Portal</a>
                 <a href="https://todo.noxyyk.com" class="btn animation spotify hover" target="_blank" style="color: #fff;">React to-do list</a>
-                <a href="https://url.noxyyk.com" class="btn animation linkedin hover" target="_blank" style="color: #fff;">URL shortener</a>
-                <a href="https://github.com/noxyyk/SiteScope" class="btn animation instagram hover" target="_blank" style="color: #fff;">SiteScope</a>
+                <a href="https://url.noxyyk.com" class="btn animation urlsh hover" target="_blank" style="color: #fff;">URL shortener</a>
+            </div>
+            <div class="buttons">
+                <a href="https://github.com/noxyyk/SiteScope" class="btn animation sitescope hover" target="_blank" style="color: #fff;">SiteScope</a>
                 <a href="https://discord.gg/SRNZe3g3pY" class="btn animation discord hover" target="_blank">Discord Bots</a>
                 <a href="https://github.com/retrouser955/scratch-for-discord" class="btn animation scratch hover" target="_blank" style="color: #fff;">Scratch for Discord</a>
             </div>
