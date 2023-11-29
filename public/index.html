@@ -27,40 +27,6 @@
         var images = ['./image/bgs/bg.gif', './image/bgs/bg1.gif', './image/bgs/bg2.gif', './image/bgs/bg3.gif', './image/bgs/bg4.gif', './image/bgs/bg5.webp'];
         document.getElementsByClassName('background')[0].style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')';
         </script>
-        <style>
-            .icons {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-  }
-  .icons span {
-    margin-right: 5px;
-    }
-            .cursor {
-                animation: 1s blink step-end infinite;
-                font-weight: bolder;
-            }
-             
-        @keyframes blink {
-            from,
-            to {
-                opacity: 0;
-            }
-            50% {
-                opacity: 1;
-            }
-        }
-        @media (max-width: 500px) {
-            ul {
-        padding: 0;  /* <----------------------- required */
-    }
-    
-    li {
-      	list-style-position: inside;  /* <------ optional */
-    }
-}
-
-    </style>
     <div class="center-object">
         <div class="me"> 
         <img draggable="false" src="./image/logo.png" class="image-title" hspace="5">
@@ -69,6 +35,7 @@
         </div>
         <div class="buttons status">
             <a href="https://discord.gg/SRNZe3g3pY" class="btn animation discord hover" target="_blank">Discord</a>
+            <a href="https://www.instagram.com/noxyyk/" class="btn animation instagram hover" target="_blank">Instagram</a>
             <a href="https://github.com/noxyyk" class="btn animation github hover" target="_blank">GitHub</a>
             <a href="https://open.spotify.com/user/2125o4avup3yqbalmjs62mrfi?si=a4bb8656b8d54902" class="btn animation spotify hover" target="_blank">Spotify</a>
             <a href="https://www.youtube.com/channel/UCtVmkvYCBsi2QpDP_43RxMg" class="btn animation youtube hover" target="_blank">YouTube</a>  
@@ -90,8 +57,8 @@
         <div class="one-full column"><h1 style="color:#98ff98"><b>About Me</b></h1></div>
         <div class="one-full column">
             <p style="font-size:20;text-align: justify">
-                Hi, everyone! My name is Tomas, known as Noxyyk on social media. I live in Czech Republic and currently looking for a job opportunities and would like to introduce myself. I have experience as an admin on the Rocket League trading server and as an admin, documentarist and developer for open-source Scratch for Discord. I appreciate when people get straight to the point, as I believe in optimizing productivity and making the most of my time . 
-                If you'd like to get in touch, feel free to reach me out on Discord <span style="background-color: #292828;border-radius: 7px;padding-left: 2px;padding-right: 2px;">@noxyyk</span>.
+                Hey everyone! Welcome to my portfolio page. My name is <span style="color: aquamarine;">Tomas</span>, known as <span style="color: aquamarine;">Noxyyk</span> on social media. I live in Czech Republic and currently working as <span style="color:darkcyan">electrical assembly worker</span> and would like to introduce myself.<br><br>  I have experience as an admin on the Rocket League trading server and as an admin, documentarist and developer for open-source Scratch for Discord. At the moment I am working on <a style="color: #7976e7" href="https://www.discodes.xyz/" target="_blank">Discodes</a>.
+                <br><br>If you'd like to get in touch, feel free to reach me out on Discord <span style="background-color: #292828;border-radius: 7px;padding-left: 2px;padding-right: 2px;">@noxyyk</span>.
             </p> 
         </div>
     </div>
@@ -153,10 +120,17 @@
             <ul style="font-size:20;text-align: justify">
                 <li>I like English more than my native language</li>
                 <li>I accept people who eat pineapple on pizza</li>
-                <li>I like listening to music, mostly rock</li>
+                <li>I love listening to music, anything... just send me a song</li>
                 <li>I suck at learning a new language, but I'm quite an expert at using Google Translate</li>
                 <li>I love the color <span style="color:#98ff98">Spearmint Green</span> and have even memorized the RGB & Hex values for it</li>
             </ul>
+        </div>
+    </div>
+    <div class="box-container row">
+        <div class="one-full column"><h1 style="color:#98ff98"><b>Other Pages</b></h1></div>
+        <div class="one-full column">   
+            <a href="/games" class="btn animation discord hover" target="_blank">Games I have played</a>
+            <a href="/apps" class="btn animation twitter hover" target="_blank">Apps I Recommend</a>
         </div>
     </div>
 </section>
@@ -169,7 +143,6 @@
             <h1 class="title" style="width: 100%;font-size: 500%;text-align: center;font-weight: bold">Projects</h1>
             <script>var randomlinks = [];
             randomlinks[0]="./rick";
-            randomlinks[1]="./blink";
 
             function randomlink(){
                 window.open(randomlinks[Math.floor(Math.random()*randomlinks.length)]);
@@ -179,10 +152,9 @@
                 <a href="https://github.com/Dis-codes" class="btn animation discord hover" target="_blank">DisCodes</a>
                 <a href="https://vizualizacni-portal.noxyyk.com" class="btn animation twitter hover" target="_blank">Visualization Portal</a>
                 <a href="https://todo.noxyyk.com" class="btn animation spotify hover" target="_blank" style="color: #fff;">React to-do list</a>
-                <a href="https://url.noxyyk.com" class="btn animation urlsh hover" target="_blank" style="color: #fff;">URL shortener</a>
             </div>
             <div class="buttons">
-                <a href="https://github.com/noxyyk/SiteScope" class="btn animation sitescope hover" target="_blank" style="color: #fff;">SiteScope</a>
+                <a href="https://url.noxyyk.com" class="btn animation urlsh hover" target="_blank" style="color: #fff;">URL shortener</a>
                 <a href="https://discord.gg/SRNZe3g3pY" class="btn animation discord hover" target="_blank">Discord Bots</a>
                 <a href="https://github.com/retrouser955/scratch-for-discord" class="btn animation scratch hover" target="_blank" style="color: #fff;">Scratch for Discord</a>
             </div>

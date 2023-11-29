@@ -238,6 +238,10 @@ button.discord {
     background-color: #7289da;
     box-shadow: 0 3px 0 0 rgba(114,137,218,0.5)
 }
+button.instagram {
+    background-color: #c32aa3;
+    box-shadow: 0 3px 0 0 rgba(195,42,163,0.5)
+}
 button.github {
     background-color: #292d32;
     box-shadow: 0 3px 0 0 rgba(41,45,50,0.5)
@@ -296,6 +300,14 @@ button.youtube {
 
 .btn.discord:hover,input[type="submit"].discord:hover {
     filter: drop-shadow(5px 5px 0 rgba(114,137,218,0.6)) brightness(50%)
+}
+.btn.instagram,input[type="submit"].instagram {
+    background-color: #c32aa3;
+    filter: drop-shadow(5px 5px 0 rgba(195,42,163,0.6))
+}
+
+.btn.instagram:hover,input[type="submit"].instagram:hover {
+    filter: drop-shadow(5px 5px 0 rgba(195,42,163,0.6)) brightness(50%)
 }
 .btn.github,input[type="submit"].github {
     background-color: #292d32;
@@ -771,6 +783,12 @@ button.youtube {
 .discord-text {
     color: #7289da !important
 }
+.instagram {
+    background-color: #c32aa3 !important
+}
+.instagram-text {
+    color: #c32aa3 !important
+}
 .github {
     background-color: #292d32 !important
 }
@@ -921,5 +939,36 @@ button.youtube {
         -ms-transform: translateY(-15px);
         -moz-transform: translateY(-15px);
         -o-transform: translateY(-15px)
+    }
+}
+.icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .icons span {
+    margin-right: 5px;
+    }
+            .cursor {
+                animation: 1s blink step-end infinite;
+                font-weight: bolder;
+            }
+             
+        @keyframes blink {
+            from,
+            to {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+        @media (max-width: 500px) {
+            ul {
+        padding: 0;  /* <----------------------- required */
+    }
+    
+    li {
+      	list-style-position: inside;  /* <------ optional */
     }
 }
