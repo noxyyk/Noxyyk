@@ -1,27 +1,3 @@
-<html>
-
-<head>
-    <title>Noxyyk</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-
-   <!-- Meta Data -->
-    <meta content="Noxyyk" property="og:title" />
-    <meta content="Sneak into the inter workings of Noxyyk´s mind with this website." property="og:description" />
-    <meta content="https://noxyyk.com/" property="og:url" />
-    <meta content="./image/logo.png" property="og:image" />
-    <meta content="#98ff98" data-react-helmet="true" name="theme-color" />
-
-    <link rel="icon" type="image/x-icon" href="./image/logo.png">
-    
-    <link href="themes.css" type="text/css" rel="stylesheet">
-    <script src="./script.js" type="text/javascript" charset="utf-8"></script>
-
-</head> 
-
-
-<body>
-
 <section class="container" id="information">
     <div class="box-container row">
     <div class="one-full column">
@@ -88,6 +64,3 @@
     </div>
 
     </section>
-</body>
-
-</html>
