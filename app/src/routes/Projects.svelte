@@ -24,7 +24,7 @@
                 <div class="flex flex-row gap-4  flex-wrap mx-4 sm:mx-0">
                     <a href="./free" class="btn btn-ghost grow animation bg-[#ff0000] hover:bg-[#ff0000] shadow-[6px_6px_0_0_rgba(255,0,0,0.5)] hover:brightness-50" target="_blank">Random</a>
                     <a href="https://github.com/Dis-codes" class="btn btn-ghost grow animation bg-[#918ef1] hover:bg-[#918ef1] shadow-[6px_6px_0_0_rgba(145,142,241,0.5)] hover:brightness-50" target="_blank">DisCodes</a>
-                    <a href="https://url.noxyyk.me" class="btn btn-ghost grow animation bg-[#007bb5] hover:bg-[#007bb5] shadow-[6px_6px_0_0_rgba(0,123,181,0.6)] hover:brightness-50" target="_blank">URL shortener</a>
+                    <a href="./u" class="btn btn-ghost grow animation bg-[#007bb5] hover:bg-[#007bb5] shadow-[6px_6px_0_0_rgba(0,123,181,0.6)] hover:brightness-50">URL shortener</a>
                     <!-- <a href="https://vizualizacni-portal.noxyyk.com" class="btn animation twitter hover" target="_blank">Visualization Portal</a> -->
                     <!-- <a href="https://todo.noxyyk.com" class="btn animation spotify hover" target="_blank" style="color: #fff;">React to-do list</a> -->
                 </div>

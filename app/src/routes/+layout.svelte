@@ -1,5 +1,6 @@
 <script lang="ts">
     import "../app.css";
+    import "./main.css"
     import { invalidate } from '$app/navigation';
 </script>
 
