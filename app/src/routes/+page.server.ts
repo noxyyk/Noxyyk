@@ -9,7 +9,7 @@ export const load = async ({ url })  =>{
       const data = await fetchData()
     return {
       meta: {
-        current: data?.track[0]["@attr"]["nowplaying"] === "true" ? data.track[0] : null,
+        current: data?.track[0]["@attr"] && data?.track[0]["@attr"]["nowplaying"] === "true" ? data.track[0] : null,
         recent: data?.track ?? null,
         attr: data["@attr"] ?? null,
       },

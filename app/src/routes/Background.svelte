@@ -28,7 +28,7 @@
   <div class="flex flex-col justify-center items-center h-screen gap-6 relative z-10 text-white">
     <figure><img src="../Images/logo.png" class="w-28 h-28 sm:w-32 sm:h-32 rounded-full" /></figure>
     <h1 class="text-3xl sm:text-4xl tracking-wider drop-shadow-[6px_6px_rgba(0,0,0,0.4)]">Noxyyk</h1>
-    <h3 class="text-center text-lg tracking-widest drop-shadow-[3px_3px_rgba(0,0,0,0.4)]">To have a rainbow, you also need some rain</h3>
+    <h3 class="text-center text-lg tracking-widest drop-shadow-[3px_3px_rgba(0,0,0,0.4)] mx-20">To have a rainbow, you also need some rain</h3>
     <div class="flex flex-col items-center">
         <div class="flex flex-row gap-4 flex-wrap mx-4 sm:mx-0">
           <a href="https://github.com/noxyyk" target="_blank" class="btn grow btn-ghost animation bg-[#292d32] hover:bg-[#292d32] shadow-[6px_6px_0_0_rgba(41,45,50,0.5)] hover:brightness-50">GitHub</a>
