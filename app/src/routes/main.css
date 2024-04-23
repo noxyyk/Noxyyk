@@ -248,6 +248,15 @@ li {
 .sts{
     margin-left: 7px;
 }
+.animation-1 { 
+    animation-delay: 2.3s !important
+}
+.animation-2 {
+    animation-delay: 2.4s !important
+}
+.animation-3 {
+    animation-delay:  2.5s !important
+}
 .sts.animation:nth-child(1),input[type="submit"].animation:nth-child(1) {
     animation-delay: 1.5s
 }

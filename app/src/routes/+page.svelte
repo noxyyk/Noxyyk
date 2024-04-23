@@ -3,7 +3,7 @@ import Background from './Background.svelte';
 import Projects from './Projects.svelte'
 import Section from './Section.svelte'
 import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
-
+export let data
 
 window.addEventListener('scroll', function() {
   var scrollPosition = window.scrollY;
@@ -14,7 +14,7 @@ window.addEventListener('scroll', function() {
 </script>
 
 <div class="bg-main relative">
-    <Background />
+    <Background current={data?.meta?.current} />
     <div class="container mx-auto mb-10 mt-6 max-w-1100 px-8 relative w-full" use:scrollRef={'information'}>
         <Section name={"About Me"} size={5}>
             <p class="text-justify text-xl">
