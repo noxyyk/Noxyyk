@@ -1,5 +1,5 @@
 ### Hi there 👋
-[Click me](https://noxyyk.me)
+[Click me](https://noxyyk.xyz)
 
 ## Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=noxyyk&theme=dark)
