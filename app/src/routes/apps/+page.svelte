@@ -19,16 +19,8 @@
             <a href="https://obsidian.md/" target="_blank">obsidian</a></span>
           </li>
           <li>
-            <span>One app for all messages:
-            <a href="https://www.beeper.com/" target="_blank">Beeper</a></span>
-          </li>
-          <li>
             <span>Password manager:
             <a href="https://bitwarden.com/" target="_blank">bitwarden</a></span>
-          </li>
-          <li>
-            <span>Info about games:
-            <a href="https://beforeiplay.com/" target="_blank">before I play</a></span>
           </li>
           <li>
             <span>Explore radios around the world:
@@ -51,8 +43,16 @@
             <span>Info of any country:
             <a href="https://www.cia.gov/the-world-factbook/" target="_blank">the world factbook</a></span>
           </li>
-         
-          
+         <li>
+            <span>Stock screener:
+            <a href="https://finviz.com/" target="_blank">Finviz</a>
+            </span>
+         </li>
+          <li>
+            <span>Stock earnings:
+            <a href="https://capyfin.com/earnings/" target="_blank">CapyFin</a>
+            </span>
+         </li>
         </ul>
     </Section>
       <a href="/" class="btn btn-ghost animation bg-[#7289da] hover:bg-[#7289da] shadow-[6px_6px_0_0_rgba(114,137,218,0.5)] hover:brightness-50">Go Back</a>

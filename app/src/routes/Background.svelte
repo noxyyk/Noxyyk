@@ -33,12 +33,9 @@
         <div class="flex flex-row gap-4 flex-wrap mx-4 sm:mx-0">
           <a href="https://github.com/noxyyk" target="_blank" class="btn grow btn-ghost animation bg-[#292d32] hover:bg-[#292d32] shadow-[6px_6px_0_0_rgba(41,45,50,0.5)] hover:brightness-50">GitHub</a>
           <a href="https://www.instagram.com/noxyyk/" target="_blank" class="btn grow btn-ghost animation bg-[#c32aa3] hover:bg-[#c32aa3] shadow-[6px_6px_0_0_rgba(195,42,163,0.5)] hover:brightness-50">Instagram</a>
-      <!-- use 
-      to get current song and then hide/show music and make a page /dj showing top songs, last, on repeast  etc etc
-      -->
-          <a href="https://www.last.fm/user/Noxyyk" target="_blank" class="btn grow btn-ghost animation bg-[#ba0000] hover:bg-[#ba0000] shadow-[6px_6px_0_0_rgba(186,0,0,0.5)] hover:brightness-50">Last.fm</a>
+          <!-- <a href="https://www.last.fm/user/Noxyyk" target="_blank" class="btn grow btn-ghost animation bg-[#ba0000] hover:bg-[#ba0000] shadow-[6px_6px_0_0_rgba(186,0,0,0.5)] hover:brightness-50">Last.fm</a> -->
           <a href="https://www.youtube.com/channel/UCtVmkvYCBsi2QpDP_43RxMg" target="_blank" class="grow btn btn-ghost animation bg-[#ff0000] hover:bg-[#ff0000] shadow-[6px_6px_0_0_rgba(255,0,0,0.5)] hover:brightness-50">YouTube</a>
-          <a href="https://discord.gg/Bb7AGCpGNX" target="_blank" class="btn grow btn-ghost animation bg-[#7289da] hover:bg-[#7289da] shadow-[6px_6px_0_0_rgba(114,137,218,0.5)] hover:brightness-50">Discord</a>
+          <a href="https://discord.gg/sHaffRVCNy" target="_blank" class="btn grow btn-ghost animation bg-[#7289da] hover:bg-[#7289da] shadow-[6px_6px_0_0_rgba(114,137,218,0.5)] hover:brightness-50">Discord</a>
         </div>
         <div class="flex flex-row flex-wrap justify-center gap-0 sm:gap-4">
             <img style="margin-top: 15px;pointer-events:none" class="sts animation" src="https://dev.discordprofiles.me/badge/status/513095506914705418?simple=true" alt="status" title="status" loading="lazy">

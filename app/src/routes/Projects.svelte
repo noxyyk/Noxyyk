@@ -23,14 +23,14 @@
                 <h1 class="text-7xl text-center font-bold drop-shadow-[6px_6px_rgba(0,0,0,0.4)]">Projects</h1>
                 <div class="flex flex-row gap-4  flex-wrap mx-4 sm:mx-0">
                     <a href="./free" class="btn btn-ghost grow animation bg-[#ff0000] hover:bg-[#ff0000] shadow-[6px_6px_0_0_rgba(255,0,0,0.5)] hover:brightness-50" target="_blank">Random</a>
-                    <a href="https://discodes.xyz" class="btn btn-ghost grow animation bg-[#918ef1] hover:bg-[#918ef1] shadow-[6px_6px_0_0_rgba(145,142,241,0.5)] hover:brightness-50" target="_blank">DisCodes</a>
+                    <a href="https://github.com/Dis-codes" class="btn btn-ghost grow animation bg-[#918ef1] hover:bg-[#918ef1] shadow-[6px_6px_0_0_rgba(145,142,241,0.5)] hover:brightness-50" target="_blank">DisCodes</a>
                     <a href="https://hub.noxyyk.xyz" class="btn btn-ghost grow animation bg-[#007bb5] hover:bg-[#007bb5] shadow-[6px_6px_0_0_rgba(0,123,181,0.6)] hover:brightness-50">URL shortener</a>
-                    <!-- <a href="https://vizualizacni-portal.noxyyk.com" class="btn animation twitter hover" target="_blank">Visualization Portal</a> -->
+                    <a href="https://discord.gg/sHaffRVCNy" class="btn grow btn-ghost animation bg-[#7289da] hover:bg-[#7289da] shadow-[6px_6px_0_0_rgba(114,137,218,0.5)] hover:brightness-50" target="_blank">Discord Bots</a>
                     <!-- <a href="https://todo.noxyyk.com" class="btn animation spotify hover" target="_blank" style="color: #fff;">React to-do list</a> -->
                 </div>
                 <div class="flex flex-row gap-4">
                     <!-- <a href="https://discord.gg/SRNZe3g3pY" class="btn animation discord hover" target="_blank">Discord Bots</a> -->
-                    <!-- <a href="https://github.com/retrouser955/scratch-for-discord" class="btn animation scratch hover" target="_blank" style="color: #fff;">Scratch for Discord</a> -->
+                    <a href="https://github.com/retrouser955/scratch-for-discord" class="btn animation scratch hover" target="_blank" style="color: #fff;">Scratch for Discord</a>
             </div>
             </div>
 </div>
