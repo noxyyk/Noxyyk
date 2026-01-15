@@ -59,8 +59,8 @@ window.addEventListener("click", async () => {
         .vid-info .acronym { display: none; }
     }
 </style>
-<div class="video-background nocursor" oncontextmenu="return false;">
+<div class="video-background nocursor" oncontextmenu={(e) => e.preventDefault()}>
     <div class="video-foreground">
-        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&enablejsapi=1&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+        <iframe title="Video" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&enablejsapi=1&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
     </div>
   </div>

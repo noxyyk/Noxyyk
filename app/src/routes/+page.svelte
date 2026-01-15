@@ -17,31 +17,28 @@ window.addEventListener('scroll', function() {
     <Background current={data?.meta?.current} />
     <div class="container mx-auto mb-10 mt-6 max-w-1100 px-8 relative w-full" use:scrollRef={'information'}>
 <Section name={"About Me"} size={5}>
-    <p class="text-justify text-xl">
-        Hey and welcome to my portfolio page! My name is <span style="color: aquamarine;">Tomas</span>, known online as <span style="color: aquamarine;">Noxyyk</span>. I live in the Czech Republic and am a passionate <b>developer</b> and <b>community builder</b>.
-
-        While I currently work as an <span style="color:darkcyan">electrical assembly worker</span>, in my free time I focus on software development and managing online communities, particularly on <span style="color:darkcyan">Discord</span>.
-        <br><br>
-        Currently working on a web app that visualizes your portfolio and shows some stats.
-        <br><br>
-        My main skills include:
-        <br>
-        <li class="flex items-center mb-1 gap-1">- <b>Web Development - </b>Building responsive and user-friendly websites using <div class="flex gap-2 flex-col sm:flex-row"><img src="https://skillicons.dev/icons?i=svelte,tailwindcss" /></div></li>
-        <li class="flex items-center mb-1 gap-1">- <b>Discord Bot Development - </b><span>Creating custom, scalable bots using </span><div class="flex gap-2 flex-col sm:flex-row"><img src="https://skillicons.dev/icons?i=nodejs" /></div></li>
-        - <b>Community Management:</b> Managing Discord communities<br> 
-        - <b>Documentation & Open Source:</b> Contributing to open-source projects, and writing documentation, primarily using Markdown.<br><br>
-        If you are looking for something I could help you with, <b>feel free to</b> reach me out on discord: <span style="background-color: #292828;border-radius: 7px;padding-left: 2px;padding-right: 2px;">@noxyyk</span><br>
-    </p> 
+    <div class="text-justify text-base sm:text-xl">
+        <p>Hey and welcome to my portfolio page! My name is <span style="color: aquamarine;">Tomas</span>, known online as <span style="color: aquamarine;">Noxyyk</span>. I live in the Czech Republic and am a passionate <b>developer</b> and <b>community builder</b>.</p>
+        <p class="mt-4">While I currently work as an <span style="color:darkcyan">electrical assembly worker</span>, in my free time I focus on software development and managing online communities, particularly on <span style="color:darkcyan">Discord</span>.</p>
+        <p class="mt-4">Currently working on a web app that visualizes your stock portfolio and shows some stats.</p>
+        <ul class="list-none sm:list-disc pl-0 sm:pl-5 mt-4">
+            <li class="mb-2"><b>Web Development:</b> <span class="block sm:inline">Building responsive and user-friendly websites using</span> <img class="block mt-2 sm:mt-0 sm:inline align-middle" src="https://skillicons.dev/icons?i=svelte,tailwindcss" alt="Svelte and Tailwind CSS" /></li>
+            <li class="mb-2"><b>Discord Bot Development:</b> <span class="block sm:inline">Creating custom, scalable bots using</span> <img class="block mt-2 sm:mt-0 sm:inline align-middle" src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" /></li>
+            <li class="mb-2"><b>Community Management:</b> Managing Discord communities</li>
+            <li class="mb-2"><b>Documentation & Open Source:</b> Contributing to open-source projects, and writing documentation, primarily using Markdown.</li>
+        </ul>
+        <p class="mt-4">If you are looking for something I could help you with, <b>feel free to</b> reach me out on discord: <span style="background-color: #292828;border-radius: 7px;padding-left: 2px;padding-right: 2px;">@noxyyk</span></p>
+    </div>
 </Section>
         <Section name={"Skills and Abilities"} size={5}>
-                <ul class="text-xl mb-4 mobile">
+                <ul class="text-base sm:text-xl mb-4 mobile">
                   <li>Communication with people</li>
                   <li>PC skills:</li>
                   <ul>
                     <li class="flex items-center mb-1 gap-1">Ms Office (Word, Excel)</li>
-                    <li class="flex items-center mb-1 gap-1">
+                    <li class="flex flex-wrap items-center mb-1 gap-1">
                         <span>Adobe: </span>
-                        <img src="https://skillicons.dev/icons?i=ps,pr" />
+                        <img class="block mt-2 sm:mt-0 sm:inline" src="https://skillicons.dev/icons?i=ps,pr" alt="Photoshop and Premiere Pro" />
                       </li>
                   </ul>
                   <li>Quick learning</li>
@@ -49,13 +46,13 @@ window.addEventListener('scroll', function() {
                 </ul>
                 <Section name={"Languages"} size={4}>
                     <ul>
-                      <li class="text-xl">Czech - native</li>
-                        <li class="text-xl">English - intermediate</li>
+                      <li class="text-base sm:text-xl">Czech - native</li>
+                        <li class="text-base sm:text-xl">English - intermediate</li>
                       </ul>
                 </Section>
         </Section>
         <Section name={"Quick Facts"} size={4}>
-            <ul class="text-xl text-justify mobile">
+            <ul class="text-base sm:text-xl text-justify mobile">
                 <li>I like English more than my native language</li>
                 <li>I love listening to music, anything... just send me a song</li>
                 <li>I suck at learning a new language, but I'm quite an expert at using Google Translate</li>
@@ -69,7 +66,7 @@ window.addEventListener('scroll', function() {
     </div>
     <Projects />
     <div class="container mx-auto max-w-1100 px-8 relative w-full my-20" id="end">
-            <p class="text-2xl text-center"><span class="text-nox">End Of Page</span><a href="./Images/magic.gif"><span class="cursor text-nox">_</span></a>
+            <p class="text-2xl text-center"><span class="text-nox">End Of Page</span><a href="./Images/magic.gif"><span class="cursor text-nox">_</span></a></p>
     </div>
 </div>
 

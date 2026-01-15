@@ -23,10 +23,10 @@
   <div
   class="background absolute top-0 left-0 w-full h-full bg-cover bg-center filter brightness-50 blur-sm bg-fixed bg-no-repeat"
     style="background-image: {backgroundImage};"
-  />
+  ></div>
    
   <div class="flex flex-col justify-center items-center h-screen gap-6 relative z-10 text-white">
-    <figure><img src="../Images/logo.png" class="w-28 h-28 sm:w-32 sm:h-32 rounded-full" /></figure>
+    <figure><img src="../Images/logo.png" class="w-28 h-28 sm:w-32 sm:h-32 rounded-full" alt="Noxyyk logo" /></figure>
     <h1 class="text-3xl sm:text-4xl tracking-wider drop-shadow-[6px_6px_rgba(0,0,0,0.4)]">Noxyyk</h1>
     <h3 class="text-center text-lg tracking-widest drop-shadow-[3px_3px_rgba(0,0,0,0.4)] mx-20">To have a rainbow, you also need some rain</h3>
     <div class="flex flex-col items-center">
@@ -48,17 +48,18 @@
         <div class="flex flex-col justify-center items-center gap-8 sm:gap-6 mt-4">
           <div class="relative sts animation animation-1">
             <img class="rounded-3xl shadow-lg" src={current.image[3]["#text"]} alt="{current.name}" height="100px" width="100px">
-            <a class="absolute bottom-0 right-0 bg-white rounded-full p-1" href={current.url}>
+            <a class="absolute bottom-0 right-0 bg-white rounded-full p-1" href={current.url} aria-label="View song on Last.fm">
               <svg class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
               </svg>
             </a>
           </div>
-          <p class="text-lg font-bold text-center">
+          <div class="text-lg font-bold text-center">
             <span class="text-lg sts animation animation-2">{current.name}</span>
             <br>
             <span class="text-sm text-gray-400 sts animation animation-3">{current.artist["#text"]}</span>
           </div>
+        </div>
           {/if}
           
           <div use:scrollTo={{ ref: 'information', duration: 500 }} id="fade" class="arrow bounce"></div>

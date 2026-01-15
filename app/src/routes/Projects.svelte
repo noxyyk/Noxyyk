@@ -18,7 +18,7 @@
     <div
     class="background aspect-video h-full absolute w-full bg-cover bg-center filter brightness-50 blur-sm bg-fixed bg-no-repeat"
       style="background-image: {backgroundImage};"
-    />
+    ></div>
 <div class="flex flex-col items-center justify-center gap-4 relative z-10 text-white">
                 <h1 class="text-7xl text-center font-bold drop-shadow-[6px_6px_rgba(0,0,0,0.4)]">Projects</h1>
                 <div class="flex flex-row gap-4  flex-wrap mx-4 sm:mx-0">
